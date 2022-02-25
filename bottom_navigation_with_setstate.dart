@@ -37,13 +37,6 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   int _pageIndex = 0;
-
-  Map<int, GlobalKey>? navigatorKeys = {
-    0: GlobalKey(),
-    1: GlobalKey(),
-    2: GlobalKey(),
-    3: GlobalKey(),
-  };
   List<int> screenStack = [0];
 
   @override
